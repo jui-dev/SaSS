@@ -1,0 +1,40 @@
+/*-------------- Background section 1 starts---------------------*/
+
+.card {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  // styling card texts content
+  .card-content {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 0 6rem;
+    font-family: sans-serif;
+
+    h1 {
+      font-size: 3rem;
+      font-family: serif;
+    }
+    p {
+      margin: 20px 0;
+      margin-bottom: 40px;
+      line-height: 1.5rem;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      background: black;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+    }
+  }
+  // styling card image
+  .card-img {
+    width: 400px;
+  }
+}
+
+/*-------------- background section ends--------------*/

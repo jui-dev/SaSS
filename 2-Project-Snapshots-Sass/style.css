@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-family: sans-serif;
+  position: fixed;
+  width: 100%;
+  background: white;
+  /*div for logo styling using nesting*/
+  /*styling the navbar items using nesting*/
+}
+nav .logo-container {
+  margin-left: 40px;
+}
+nav ul {
+  margin-right: 40px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+}
+nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*-------------- navigation bar ends------------*/
+/*-------------- header / hero starts ----------*/
+main {
+  background: url(./images/img5.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main h1 {
+  font-size: 3rem;
+  color: white;
+}
+main p {
+  max-width: 600px;
+  margin: 10px;
+  color: darkkhaki;
+}
+main button {
+  border: none;
+  background-color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/*-------------- header ends---------------------*/
+/*-------------- Background section 1 starts---------------------*/
+.card {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-content {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  margin: 0 6rem;
+  font-family: sans-serif;
+}
+.card .card-content h1 {
+  font-size: 3rem;
+  font-family: serif;
+}
+.card .card-content p {
+  margin: 20px 0;
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+}
+.card .card-content a {
+  text-decoration: none;
+  color: #fff;
+  background: black;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.card .card-img {
+  width: 400px;
+}
+
+/*-------------- background section ends--------------*/
+/* ---------- gallery section starts ------- */
+.gallery {
+  margin-top: 6rem;
+}
+.gallery h1 {
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 5rem;
+}
+.gallery .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery .gallery-img {
+  width: 300px;
+  margin: 20px;
+}
+
+/*----------- gallery section ends --------*/
+/*---------- footer starts --------------*/
+footer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer input {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+footer textarea {
+  padding: 20px;
+  width: 420px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  padding: 10px 20px;
+  font-family: sans-serif;
+}
+
+/*------------- footer ends -------------*/
+@media screen and (max-width: 750px) {
+  .card {
+    height: 100vh;
+  }
+}/*# sourceMappingURL=style.css.map */

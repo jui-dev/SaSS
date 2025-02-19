@@ -1,0 +1,31 @@
+/*---------- footer starts --------------*/
+footer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // input box of footer area //
+  input {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+
+  // textarea of footer area //
+
+  textarea {
+    padding: 20px;
+    width: 420px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  // anchor tag of footer area //
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 10px 20px;
+    font-family: sans-serif;
+  }
+}
+/*------------- footer ends -------------*/

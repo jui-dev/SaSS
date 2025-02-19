@@ -1,0 +1,34 @@
+/*-------------- header / hero starts ----------*/
+main {
+  background: url(./images/img5.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  //--- positioning the elements of the header.
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; // every single thing in the header will be in the center position.
+  text-align: center; // text inside the header will be in the center position
+  // heading inside the header using nesting
+  h1 {
+    font-size: 3rem;
+    color: white;
+  }
+  // styling paragraph inside the header using nesting
+  p {
+    max-width: 600px;
+    margin: 10px;
+    color: darkkhaki;
+  }
+  button {
+    //background: transparent; // button background will be transparant.
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+}
+
+/*-------------- header ends---------------------*/
